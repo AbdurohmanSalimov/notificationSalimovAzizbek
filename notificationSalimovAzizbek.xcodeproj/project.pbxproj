@@ -25,6 +25,8 @@
 		082996D62847693B00C1B910 /* AzizbekNotificationContent.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 082996C72847693B00C1B910 /* AzizbekNotificationContent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		082996DC28476AA900C1B910 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 082996DB28476AA900C1B910 /* MainInterface.storyboard */; };
 		082996DD28476ADF00C1B910 /* DiskCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082996AA2847601300C1B910 /* DiskCacheManager.swift */; };
+		08DFA95528476D8A00A39D14 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082996A528475DD000C1B910 /* HomeVC.swift */; };
+		08E01D3528478204000072D6 /* Roboto in Resources */ = {isa = PBXBuildFile; fileRef = 08E01D3428478204000072D6 /* Roboto */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +83,7 @@
 		082996D32847693B00C1B910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		082996DA28476A3100C1B910 /* AzizbekNotificationContent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AzizbekNotificationContent.entitlements; sourceTree = "<group>"; };
 		082996DB28476AA900C1B910 /* MainInterface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		08E01D3428478204000072D6 /* Roboto */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Roboto; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +140,7 @@
 				082996A928475EFB00C1B910 /* notificationSalimovAzizbek.entitlements */,
 				0829969128475D5200C1B910 /* AppDelegate.swift */,
 				0829969A28475D5700C1B910 /* Assets.xcassets */,
+				08E01D3428478204000072D6 /* Roboto */,
 				0829969C28475D5700C1B910 /* LaunchScreen.storyboard */,
 				0829969F28475D5700C1B910 /* Info.plist */,
 				082996A528475DD000C1B910 /* HomeVC.swift */,
@@ -291,6 +295,7 @@
 				0829969E28475D5700C1B910 /* LaunchScreen.storyboard in Resources */,
 				082996A828475DD000C1B910 /* HomeVC.xib in Resources */,
 				0829969B28475D5700C1B910 /* Assets.xcassets in Resources */,
+				08E01D3528478204000072D6 /* Roboto in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +343,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08DFA95528476D8A00A39D14 /* HomeVC.swift in Sources */,
 				082996CF2847693B00C1B910 /* NotificationViewController.swift in Sources */,
 				082996DD28476ADF00C1B910 /* DiskCacheManager.swift in Sources */,
 			);

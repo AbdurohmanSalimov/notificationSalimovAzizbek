@@ -12,25 +12,23 @@ import UserNotificationsUI
 class NotificationViewController: UIViewController, UNNotificationContentExtension {
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var favoriteButton: UIButton!
-    @IBOutlet weak var podcastTitleLabel: UILabel!
-    @IBOutlet weak var podcastBodyLabel: UILabel!
 
-    @IBOutlet var label: UILabel?
+
+   
     
     override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any required interface initialization here.
+    
     }
     
     func didReceive(_ notification: UNNotification) {
-        self.label?.text = notification.request.content.body
-        
+//        self.label?.text = notification.request.content.body
+//
        
 
         // 2
         let content = notification.request.content
-        podcastTitleLabel.text = content.subtitle
-        podcastBodyLabel.text = content.body
+//        podcastTitleLabel.text = content.subtitle
+//        podcastBodyLabel.text = content.body
 
         // 3
         guard
@@ -59,7 +57,7 @@ class NotificationViewController: UIViewController, UNNotificationContentExtensi
     
     @IBAction func favoriteButtonTapped(_ sender: Any) {
         favoriteButton.setImage(UIImage(systemName: "star.fill"), for: .normal)
-
+print("star tapped")
       
     }
 

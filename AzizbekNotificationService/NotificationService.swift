@@ -39,7 +39,7 @@ class NotificationService: UNNotificationServiceExtension {
                 let image = image,
                 let fileURL = self.saveImageAttachment(
                   image: image,
-                  forIdentifier: "attachment.png")
+                  forIdentifier: "attachment.jpg")
                 // 4
                 else {
                   contentHandler(bestAttemptContent)
