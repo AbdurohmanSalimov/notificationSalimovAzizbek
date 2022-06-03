@@ -13,20 +13,20 @@
             <objects>
                 <viewController id="M4Y-Lb-cyx" userLabel="Notification View Controller" customClass="NotificationViewController" customModule="AzizbekNotificationContent" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="S3S-Oj-5AN">
-                        <rect key="frame" x="0.0" y="0.0" width="368" height="324"/>
+                        <rect key="frame" x="0.0" y="0.0" width="368" height="325"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vzf-h0-jhi" userLabel="topContentContainerView">
-                                <rect key="frame" x="0.0" y="0.0" width="368" height="324"/>
+                                <rect key="frame" x="0.0" y="0.0" width="368" height="325"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="rQ5-IG-Z5J">
-                                        <rect key="frame" x="17" y="15" width="334" height="117"/>
+                                        <rect key="frame" x="17" y="15" width="334" height="118"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="icK-fM-Bmp">
-                                                <rect key="frame" x="0.0" y="0.0" width="334" height="57.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="334" height="58.5"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="smallcircle.filled.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="1ue-hJ-AEA">
-                                                        <rect key="frame" x="0.0" y="22.5" width="14" height="13"/>
+                                                        <rect key="frame" x="0.0" y="23" width="14" height="13"/>
                                                         <color key="tintColor" red="0.31372550129999999" green="0.28627452250000002" blue="0.71372550729999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="14" id="3Ce-Cp-b2Z"/>
@@ -34,7 +34,7 @@
                                                         </constraints>
                                                     </imageView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="MBc-R3-0Cm">
-                                                        <rect key="frame" x="19" y="18.5" width="315" height="20.5"/>
+                                                        <rect key="frame" x="19" y="19" width="315" height="20.5"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="262" verticalHuggingPriority="251" horizontalCompressionResistancePriority="752" verticalCompressionResistancePriority="752" text="1SONiA" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SlV-8A-JgY">
                                                                 <rect key="frame" x="0.0" y="0.0" width="55" height="20.5"/>
@@ -53,7 +53,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="CZt-yW-ApI">
-                                                <rect key="frame" x="0.0" y="69.5" width="334" height="47.5"/>
+                                                <rect key="frame" x="0.0" y="70.5" width="334" height="47.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Salom, Zubayr!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FFm-j0-CPi">
                                                         <rect key="frame" x="0.0" y="0.0" width="334" height="19.5"/>
@@ -72,7 +72,7 @@
                                         </subviews>
                                     </stackView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B4Q-bv-wbo">
-                                        <rect key="frame" x="0.0" y="143" width="368" height="150"/>
+                                        <rect key="frame" x="0.0" y="144" width="368" height="150"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="Qo2-Mo-Cx2">
                                                 <rect key="frame" x="7" y="7" width="354" height="136"/>
@@ -148,13 +148,16 @@
                                         </constraints>
                                     </view>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="c13-Wh-l6x">
-                                        <rect key="frame" x="0.0" y="293" width="368" height="31"/>
+                                        <rect key="frame" x="0.0" y="294" width="368" height="31"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S62-jd-WOa">
                                                 <rect key="frame" x="0.0" y="0.0" width="179" height="31"/>
                                                 <color key="tintColor" red="0.31372550129999999" green="0.28627452250000002" blue="0.71372550729999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Ulashish"/>
+                                                <connections>
+                                                    <action selector="shareBtnTapped:" destination="M4Y-Lb-cyx" eventType="touchUpInside" id="gi5-uh-yMJ"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JlX-0C-AjJ">
                                                 <rect key="frame" x="189" y="0.0" width="179" height="31"/>
@@ -194,15 +197,23 @@
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="368" height="324"/>
+                    <size key="freeformSize" width="368" height="325"/>
                     <connections>
-                        <outlet property="favoriteButton" destination="JlX-0C-AjJ" id="uNn-Os-Y2m"/>
+                        <outlet property="buildingNameLbl" destination="wrE-sK-xQS" id="rzX-OS-GJL"/>
+                        <outlet property="clientLbl" destination="FFm-j0-CPi" id="aGZ-Tm-7aC"/>
                         <outlet property="imageView" destination="Suw-ee-uKo" id="Ljw-oE-0Bj"/>
+                        <outlet property="informationLbl" destination="t1A-mI-hbj" id="S4v-7W-Bcn"/>
+                        <outlet property="locationAdressLbl" destination="QMu-KW-YyG" id="f7S-zK-fHf"/>
+                        <outlet property="meetingDayLbl" destination="o0M-sr-Vzh" id="Jpe-5R-LJ8"/>
+                        <outlet property="meetingTime" destination="D70-O6-ckP" id="dmy-gk-uAa"/>
+                        <outlet property="ownerNameLbl" destination="tKe-9M-awG" id="kLZ-Bn-Fe7"/>
+                        <outlet property="phoeOwnerLbl" destination="Kku-bQ-ySb" id="VNH-mB-h0O"/>
+                        <outlet property="shareBtn" destination="S62-jd-WOa" id="fe0-yx-S1V"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="169.56521739130437" y="77.678571428571431"/>
+            <point key="canvasLocation" x="169.56521739130437" y="78.013392857142847"/>
         </scene>
     </scenes>
     <resources>
